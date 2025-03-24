@@ -42,13 +42,13 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   
-//   voteForm.addEventListener("submit", (e) => {
-//     e.preventDefault();
-//     const votesToAdd = parseInt(voteInput.value) || 0; 
-//     const currentVotes = parseInt(voteCount.textContent);
-//     voteCount.textContent = currentVotes + votesToAdd;
-//     voteInput.value = "";
-//   });
+  voteForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const votesToAdd = parseInt(voteInput.value) || 0; 
+    const currentVotes = parseInt(voteCount.textContent);
+    voteCount.textContent = currentVotes + votesToAdd;
+    voteInput.value = "";
+  });
 
  
 //   resetButton.addEventListener("click", () => {
