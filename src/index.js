@@ -9,28 +9,28 @@ document.addEventListener("DOMContentLoaded", () => {
   const resetButton = document.getElementById("reset-btn");
 
  
-//   fetch(baseUrl)
-//     .then(res => res.json())
-//     .then((characters) => {
+  fetch(baseUrl)
+    .then(res => res.json())
+    .then((characters) => {
       
-//       characters.forEach((character) => {
-//         const span = document.createElement("span");
-//         span.textContent = character.name;
-//         span.style.cursor = "pointer";
-//         span.addEventListener("click", () => {
-//           showCharacterDetails(character);
-//         });
-//         characterBar.appendChild(span);
-//       });
+      characters.forEach((character) => {
+        const span = document.createElement("span");
+        span.textContent = character.name;
+        span.style.cursor = "pointer";
+        span.addEventListener("click", () => {
+          showCharacterDetails(character);
+        });
+        characterBar.appendChild(span);
+      });
 
      
-//       if (characters.length=0) {
-//         showCharacterDetails(characters);
-//       }
-//     })
-//     .catch((err) => {
-//       console.log(err)
-//     });
+      if (characters.length=0) {
+        showCharacterDetails(characters);
+      }
+    })
+    .catch((err) => {
+      console.log(err)
+    });
 
  
 //   function showCharacterDetails(character) {
