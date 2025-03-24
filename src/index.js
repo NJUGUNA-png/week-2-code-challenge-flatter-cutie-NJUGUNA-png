@@ -33,13 +33,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
  
-//   function showCharacterDetails(character) {
-//     characterName.textContent = character.name;
-//     characterImage.src = character.image;
-//     characterImage.alt = character.name;
-//     voteCount.textContent = character.votes || 0;
-//     characterImage.style.display = "block";
-//   }
+  function showCharacterDetails(character) {
+    characterName.textContent = character.name;
+    characterImage.src = character.image;
+    characterImage.alt = character.name;
+    voteCount.textContent = character.votes || 0;
+    characterImage.style.display = "block";
+  }
 
   
 //   voteForm.addEventListener("submit", (e) => {
