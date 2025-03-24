@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // const baseUrl = "https://flatacuties-phi.vercel.app/characters";
-  // const characterBar = document.getElementById("character-bar");
-  // const characterName = document.getElementById("name");
-  // const characterImage = document.getElementById("image");
-  // const voteCount = document.getElementById("vote-count");
-  // const voteForm = document.getElementById("votes-form");
-  // const voteInput = document.getElementById("votes");
-  // const resetButton = document.getElementById("reset-btn");
+  const baseUrl = "https://flatacuties-phi.vercel.app/characters";
+  const characterBar = document.getElementById("character-bar");
+  const characterName= document.getElementById("name");
+  const characterImage = document.getElementById("image");
+  const voteCount = document.getElementById("vote-count");
+  const voteForm = document.getElementById("votes-form");
+  const voteInput = document.getElementById("votes");
+  const resetButton = document.getElementById("reset-btn");
 
  
 //   fetch(baseUrl)
