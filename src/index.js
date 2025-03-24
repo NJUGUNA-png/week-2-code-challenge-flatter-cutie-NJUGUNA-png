@@ -31,4 +31,12 @@ document.addEventListener("DOMContentLoaded", () => {
       votes: 0
     }
   ];
+
+  const charactersBar=document.querySelector('#characters-bar')
+  const name =document.querySelector('#name')
+  const image=document.querySelector('#image')
+  const votescount=document.querySelector('#vote-count')
+  const votesform=document.querySelector('#votes-form')
+  const votesinput=document.querySelector('#votes-input')
+  const resetbtn=document.querySelector('#reset-btn')
 });
