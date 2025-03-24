@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
  
-//   resetButton.addEventListener("click", () => {
-//     voteCount.textContent = "0";
-//   });
-// });
+  resetButton.addEventListener("click", () => {
+    voteCount.textContent = "0";
+  });
+});
